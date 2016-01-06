@@ -1,5 +1,5 @@
 html {
-	background: url(assets/images/background.jpg) no-repeat center center fixed;
+	background-image: url(assets/images/background.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -7,7 +7,10 @@ html {
 }
 
 body{
-	margin:0;	
+	margin:0;
+	font-family: 'Open Sans';
+	/*font-weight: 1000px;*/
+	background-color: #ccc;
 }
 
 .primary-text{
@@ -26,9 +29,38 @@ body{
 
 /*HEADER*/
 header{
+	height: 100px;
+	line-height: 100px;
 	border: 1px dashed red;
 	padding-left: 75px;
 	padding-right: 75px;
+	overflow: auto;
+}
+
+header .logo{
+	float:left;
+	vertical-align: middle;
+}
+
+header .logo img{
+	vertical-align: middle;
+}
+
+header ul{
+	list-style-type: none;
+	margin: 0;
+}
+
+
+header li{
+	display: inline-block;
+	float: right;
+	margin: 0 10px;
+}
+
+header nav li a{
+	text-decoration: none;
+	color: white; /*change later?*/
 }
 
 /*MAIN*/
@@ -46,7 +78,25 @@ main .reserve{
 }
 
 section{
+	overflow: auto;
 	border: 1px solid purple;
+}
+
+section .plates{
+	box-sizing: border-box;
+	background-color: white;
+	border: 1px dashed green;
+	border-radius: 5px;
+	width:33.33%;
+	padding-top: 25px;
+/*	padding: 0 50px;*/
+	float: left;
+}
+
+section .plates img{
+	width:100px;
+	border: 2px solid #519872;
+	border-radius: 50%;
 }
 
 /*FOOTER*/
