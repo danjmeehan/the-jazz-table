@@ -31,7 +31,7 @@ body{
 header{
 	height: 100px;
 	line-height: 100px;
-	border: 1px dashed red;
+	border-bottom: 1px dashed red;
 	padding-left: 75px;
 	padding-right: 75px;
 	overflow: auto;
@@ -65,7 +65,6 @@ header nav li a{
 
 /*MAIN*/
 main{
-	border: 1px solid blue;
 	padding-left: 75px;
 	padding-right: 75px;
 	text-align: center;
@@ -79,7 +78,6 @@ main .reserve{
 
 section{
 	overflow: auto;
-	border: 1px solid purple;
 }
 
 section .plates{
@@ -89,7 +87,7 @@ section .plates{
 	border-radius: 5px;
 	width:33.33%;
 	padding-top: 25px;
-/*	padding: 0 50px;*/
+	padding-right: 25px;
 	float: left;
 }
 
@@ -100,9 +98,34 @@ section .plates img{
 }
 
 /*FOOTER*/
-footer{
-	border: 1px dashed green;
+/*footer{
 	padding-left: 75px;
 	padding-right: 75px;
+}*/
+
+footer .section{
+	overflow: auto;
+	text-align: center;
+	padding: 20px 0;
+	border-top: 1px solid #ffffff;
+}
+
+footer .section:first-child{
+	border-top: none;
+}
+
+footer .col-50{
+	width: 50%;
+	float:left;
+	box-sizing: border-box;
+	border-right: 1px solid #ffffff;
+}
+
+footer .col-50:last-child{
+	border-right: none;
+}
+
+footer img{
+	height: 40px;
 }
 
