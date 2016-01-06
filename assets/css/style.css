@@ -1,3 +1,15 @@
+html {
+	background: url(assets/images/background.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+body{
+	margin:0;	
+}
+
 .primary-text{
   color:#519872;
 }
@@ -10,3 +22,37 @@
 .secondary-background{
   background-color:#ffffff;
 }
+
+
+/*HEADER*/
+header{
+	border: 1px dashed red;
+	padding-left: 75px;
+	padding-right: 75px;
+}
+
+/*MAIN*/
+main{
+	border: 1px solid blue;
+	padding-left: 75px;
+	padding-right: 75px;
+	text-align: center;
+}
+
+main .reserve{
+	border-radius: 6px;
+	text-decoration: none;
+	padding: 5px 15px;
+}
+
+section{
+	border: 1px solid purple;
+}
+
+/*FOOTER*/
+footer{
+	border: 1px dashed green;
+	padding-left: 75px;
+	padding-right: 75px;
+}
+
