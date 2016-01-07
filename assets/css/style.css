@@ -1,15 +1,15 @@
-html{
-	background: url(assets/images/background.jpg) no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+/*html{
 }
-
+*/
 body{
 	margin:0;
 	font-family: 'Open Sans';
 	background-color: #ccc;
+	background: url(../images/background.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 .primary-text{
@@ -89,7 +89,6 @@ section{
 
 section .plates{
 	box-sizing: border-box;
-	border: 1px dashed green;
 	border-radius: 5px;
 	width:33.33%;
 	padding-top: 25px;
